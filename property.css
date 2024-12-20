@@ -1,0 +1,534 @@
+@import url(./Satoshi_Complete/Fonts/WEB/css/satoshi.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "satoshi", sans-serif;
+}
+header .nav .logo{
+    display: flex;
+}
+header .nav .logo h5 {
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 500px;
+    color: black;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0px 50px;
+}
+.nav ul{
+    margin-top: 20px;
+    lis.nav ult-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav ul li{
+    padding: 10px;
+    font-size: 14px;
+    color: #70707B;
+    list-style: none;
+    font-weight: 400px;
+}
+.nav ul li{
+    padding: 10px;
+    font-size: 14px;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav ul li a:hover{
+    border-bottom: 4px solid black;
+}
+.nav ul li:nth-child(2){
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700px;
+    color: #000000;
+    list-style: none;
+
+}
+.nav button{
+    width: 110px;
+    height: 40px;
+    padding: 10px 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;
+}
+
+/* header end */
+
+
+.section3{
+    margin: 50px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text h3{
+    width: 50%;
+    font-size: 52px;
+    font-weight: 400px;
+}.text p{
+    width: 50%;
+}
+
+.search input{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid #dfdbdb;
+}
+.search{
+    margin-bottom: 25px;
+}
+.section3 .photos{
+    position: relative;
+}
+.section3 .allcard{
+    width: 100%;
+    position:relative;
+    left: 270px;
+}
+.section3 .photos{
+    /* position: absolute; */
+    right: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+.section3 .photos{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.section3 .details{
+    width: 60%;
+    left: 50px;
+    width: 230px;
+    height: 650px;
+    /* background-color: red; */
+}
+.section3 .photos .details{
+    width:300px;
+    height: 600px;
+    position: absolute;
+    left:  ;
+    top: ;
+}
+.section3 .photos{
+    /* position: relative; */
+    
+}
+.section3 .photos .details h4{
+    padding: 10px;
+}
+.section3 .photos .details .side .catagory input{
+    margin: 10px 15px;
+}
+.section3 .photos .details .side .location input{
+    margin: 10px 15px;
+}
+.section3 .details .topbtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #E4E4E7;
+    padding: 8px;
+    margin: 20px 0px;
+}
+.section3 .details .topbtn .btnl button{
+    width: 150px;
+    height: 40px;
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+}
+.section3 .details .topbtn .btnr button{
+    width: 150px;
+    height: 40px;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    padding-right: 30px;
+    background-color: white;
+}
+
+.section3 .price .prices{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section3 .price .prices .dam p{
+    /* float: left; */
+    display: inline-flex;
+}
+
+
+
+.section3 .allcard{
+    position:;
+    right: 50px;
+}
+
+.section3 .line1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section3 .photos .card1{
+    width: 33%;
+    padding-right: 20px;
+}
+.card1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.section3 .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #E4E4E7;
+}
+.section3 .buttom{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section3 .buttom span{
+    border-right: 2px solid #E4E4E7;
+    margin-left: -30px;
+    padding-right: 5px;
+}
+.section3 .right h6{
+    padding-left: 120px;
+}
+
+.section3 .photos .card2{
+    width: 34.50%;
+    padding: 20px;
+}
+.card2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.section3 .right p{
+    padding-left: 120px;
+}
+
+.section3 .photos .card3{
+    width: 33%;
+    padding-left: 20px;
+}
+.card3 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.section3 .card1{
+    position: relative;
+}
+.section3 .card2{
+    position: relative;
+}
+.section3 .card3{
+    position: relative;
+}
+.section3 .extra{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    top: 5px;
+    right: 25px;
+}
+.section3 .extra .home{
+    width: fit-content;
+    background-color: #18181B;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 50px;
+}
+.section3 .extra .sale{
+    width: fit-content;
+    background-color: #18181B;
+    color: white;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 50px;
+}
+.section3 .extra2{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+}
+.section3 .extra2 .home{
+    width: fit-content;
+    background-color: #18181B;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 50px;
+}
+.section3 .extra2 .sale{
+    width: fit-content;
+    background-color: #18181B;
+    color: white;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 50px;
+}
+.section3 .extra3{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.section3 .extra3 .home{
+    width: fit-content;
+    background-color: #18181B;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 50px;
+}
+.section3 .extra3 .sale{
+    width: fit-content;
+    background-color: #18181B;
+    color: white;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+.section3 .line2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section3 .line3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section3 .line3 .card{
+    /* padding: 0px 20px; */
+}
+.section3 .line3 .card1{
+    padding-right: 40px;
+}
+.section3 .line3 .card2{
+    padding-right: 40px;
+}
+.section3 .line3 .card3{
+    /* padding-right: 40px; */
+}
+
+
+.section3 .line3 .extra{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    top: 5px;
+    right: 40px;
+}
+.section3 .line3 .extra .home{
+    width: fit-content;
+    background-color: #18181B;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 50px;
+}
+.section3 .line3 .extra3 .sale{
+    width: fit-content;
+    background-color: #18181B;
+    color: white;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+.section3 .line3 h6{
+    font-size: 24px;
+}  
+.section3 .btn button{
+    margin-top: -80px;
+    width: fit-content;
+    background-color: #18181B;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 50px;
+}
+.section3{
+    position: relative;
+}
+.section3 .btn{
+    position: absolute;
+    top: 1420px;
+    left: 550px;
+}
+.section3 .btn{
+    /* margin-bottom: 0px; */
+}
+/* section 3 end */
+
+
+
+
+.section6{
+    margin: 100px 50px;
+    /* position: fixed; */
+}
+.section6{
+    width: 92vw;
+    height: 80vh;
+    background-image: url(image/Need\ a\ help\ to\ find\ your\ comfort\ home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    /* background-attachment: fixed; */
+    position: relative;
+}
+.section6 .text-areal{
+    width: 600px;
+    height: 400px;
+    /* background-color: red; */
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+.section6 .text-areal h2{
+    font-size: 60px;
+    font-weight: 400px;
+    line-height: 72px;
+}
+.section6 .text-areal p{
+    font-size: 19px;
+    font-weight: 300px;
+}
+.section6 form{
+    width: 350px;
+    height: 370px;
+    background-color:#FCFCFC ;
+    color: black;
+    border-radius: 20px;
+    position: absolute;
+    right: 50px;
+    top: 70px;
+    padding: 30px;
+}
+.section6 .from .sms{
+    width: 200px;
+    height: 150px;
+    border: 2px solid gray;
+    top: 0px;
+    /* background-color: red; */
+}
+.section6 .from button{
+    width: 300px;
+    padding: 10px 0px;
+    background-color: #18181B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* section 7 end */
+
+.footer{
+    padding: 50px;
+    background-color: #18181B;
+    color: white;
+    height: 450px;
+    position: relative;
+}
+.footer .all-text{
+    display: flex;
+    align-items: center;
+}
+.footer .left h5{
+    font-size: 32px;
+    font-weight: 100px;
+}
+.footer .three{
+    width: 700px;
+    display: flex;
+    align-items: center;
+}
+.footer .three .one{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.footer .right{
+    width: 400px;
+    position: absolute;
+    right: 100px;
+    top: 40px;
+}
+.footer .right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .rightside{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .right h6{
+    padding: 10px 15px;
+}
+.footer .right p{
+    padding: 10px 15px;
+}
+
+.navigation p{
+    position: absolute;
+    top: 0px;
+}
+.footer .all-text{
+    padding-bottom: 70px;
+    border-bottom: 2px solid #70707B;
+}
+
+.footer .bottomnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .bottomnav .a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+.footer .bottomnav .a i{
+    padding-left: 12px;
+    color: red;
+    font-size: 59px;
+}
