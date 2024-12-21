@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url(./satoshi_somplete/Fonts/WEB/css/satoshi.css);
 *{
     margin:0;
@@ -587,7 +586,7 @@ h1{
 }
 .footer .bottomnav .a i{
     padding-left: 12px;
-=======
+}
 @import url(./satoshi_somplete/Fonts/WEB/css/satoshi.css);
 *{
     margin:0;
@@ -1176,5 +1175,4 @@ h1{
 }
 .footer .bottomnav .a i{
     padding-left: 12px;
->>>>>>> 125b7ae49f08c00ade0eadade71d41e056305b84
 }
