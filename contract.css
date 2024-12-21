@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url(./satoshi_somplete/Fonts/WEB/css/satoshi.css);
 *{
     margin: 0;
@@ -252,4 +253,260 @@ main .hero p{
     padding-left: 12px;
     color: red;
     font-size: 59px;
+=======
+@import url(./satoshi_somplete/Fonts/WEB/css/satoshi.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "satoshi", sans-serif;
+
+}
+body p{
+    font-size: 18px;
+    color: #70707B;
+}
+body h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+header{
+    margin-bottom: 50px;
+}
+header .nav .logo{
+    display: flex;
+    align-items: center;
+}
+header .nav .logo img{
+    padding: 10px;
+}
+header .nav .logo h5 {
+    font-size: 20px;
+    font-weight: 500px;
+    color: black;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0px 50px;
+}
+.nav ul{
+    margin-top: 20px;
+    lis.nav ult-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav ul li{
+    padding: 10px;
+    font-size: 14px;
+    color: #70707B;
+    list-style: none;
+    font-weight: 400px;
+}
+.nav ul li{
+    padding: 10px;
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+}
+.nav ul li a {
+    text-decoration: none;
+    /* color: black; */
+}
+.nav ul li a:hover{
+    border-bottom: 4px solid black;
+}
+
+.nav ul li:nth-child(2){
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700px;
+    color: #000000;
+    list-style: none;
+
+}
+.nav button{
+    width: 110px;
+    height: 40px;
+    padding: 10px 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;
+}
+
+/* header end */
+
+main{
+    margin: 50px;
+}
+main .hero h3{
+    font-size: 52px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+main .hero p{
+    font-size: 18px;
+    font-weight:400;
+    text-align: center;
+    color: #70707B;
+    margin-bottom: 50px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main .left{
+    width: 48%;
+}
+.main .right{
+    width: 48%;
+}
+
+.main .left .box {
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #bebdba;
+}
+.main .left .me {
+    height: 200px;
+    width: 100%;
+    border: 1px solid #bebdba;
+    border-radius: 4px;
+    /* background-color: red; */
+}
+.main .left .box{
+    color: #bebdba;
+}
+
+
+
+.main .left button{
+    margin: 20px 0px;
+    width: 600px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #000000;
+    color: white;
+}
+
+
+
+.main .right .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+.main .right .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+.main .right i{
+    font-size: 40px;
+    color: #70707B;
+    padding: 10px 0px; 
+}
+.main .right h5{
+    font-weight: 700;
+    padding: 10px 0px;
+}
+.main .right p{
+    padding-bottom: 10px;
+}
+.main .right h4{
+    font-size: 20px;
+    font-weight: 700;
+    /* padding: 10px 0px; */
+}
+
+
+
+
+
+
+.footer{
+    padding: 10px 0px;
+    background-color: #18181B;
+    color: white;
+    height: 450px;
+    position: relative;
+}
+.footer .all-text{
+    display: flex;
+    align-items: center;
+}
+.footer .left h5{
+    font-size: 32px;
+    font-weight: 100px;
+}
+.footer .three{
+    width: 700px;
+    display: flex;
+    align-items: center;
+}
+.footer .three .one{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.footer .right{
+    width: 400px;
+    position: absolute;
+    right: 100px;
+    top: 40px;
+}
+.footer .right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .rightside{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .right h6{
+    padding: 10px 15px;
+}
+.footer .right p{
+    padding: 10px 15px;
+}
+
+.navigation p{
+    position: absolute;
+    top: 0px;
+}
+.footer .all-text{
+    padding-bottom: 50px;
+    border-bottom: 2px solid #70707B;
+}
+
+.footer .bottomnav{
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .bottomnav .a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 18px 0px;
+}
+.footer .bottomnav .a i{
+    padding-left: 12px;
+    color: red;
+    font-size: 59px;
+>>>>>>> 125b7ae49f08c00ade0eadade71d41e056305b84
 }

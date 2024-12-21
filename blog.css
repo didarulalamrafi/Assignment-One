@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url(./stoshi_Complete/Fonts/WEB/css/satoshi.css);
 *{
     margin: 0;
@@ -375,4 +376,383 @@ main p, span, i{
     padding-left: 12px;
     color: red;
     font-size: 59px;
+=======
+@import url(./stoshi_Complete/Fonts/WEB/css/satoshi.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "satoshi", sans-serif;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+header .nav .logo h5{
+    padding-left: 15px;
+}
+header .nav .logo h5 {
+    font-size: 20px;
+    font-weight: 500px;
+    color: black;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0px 50px;
+}
+.nav ul{
+    margin-top: 20px;
+    lis.nav ult-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav ul li{
+    padding: 10px;
+    font-size: 14px;
+    color: #70707B;
+    list-style: none;
+    font-weight: 400px;
+}
+.nav ul li{
+    padding: 10px;
+    font-size: 14px;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav ul li a:hover{
+    border-bottom: 4px solid black;
+}
+
+.nav ul li:nth-child(2){
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700px;
+    color: #000000;
+    list-style: none;
+
+}
+.nav button{
+    width: 110px;
+    height: 40px;
+    padding: 10px 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;
+}
+
+/* header end */
+main{
+    margin: 0px 50px;
+    
+}
+main p, span, i{
+    font-size: 18px;
+    color: #70707B;    
+}
+.section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.section .hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section .hero h3{
+    width: 50%;
+    font-size: 52px;
+    font-weight: 400;
+}
+.section .hero p{
+    width: 50%;
+    color: #70707B;
+    font-size: 18px;
+}
+.section .search input{ 
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1.5px solid #70707B;
+}
+.section .search input {
+    padding-left: 30px;
+}
+.section .search{
+    margin: 20px 0px 50px 0px;
+    position: relative;
+}
+.section .search i{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.section .details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section .details .img{
+    width: 32%;
+}
+.section .details  img{
+    width: 100%;
+    height: 400px;
+    border-radius: 12px;
+}
+.section .details .text{
+    width: 32%;
+}
+.section .details .pt{
+    width: 32%;
+}
+
+.section .details .text h4{
+    font-size: 40px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.section .details .text i{
+    /* padding-left: 10px; */
+}
+.section .details .pt .img-text img{
+    width: 100%;
+    height: 120px;
+    /* padding: 10px 0px; */
+}
+.section .details .pt .img-text{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section .details .pt .img-text h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+.section .details .pt .img-text .text{
+    padding-left: 10px;
+    width: 100%;
+}
+.section .details .pt .img-text .text h5{
+    /* float: right; */
+    display: block;
+}
+.section .top{
+    margin-bottom: 50px;
+}
+/* top end */
+
+
+.section .bottom{
+    margin: 100px 0px;
+}
+.section .bottom .title{
+    width: 690px;
+    margin: 50px 0px;
+}
+.section .bottom .title h3{
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 62px;
+}
+.section .bottom .articles .articles1 .article-card{
+    width: 32%;
+    height: 400px;
+}
+.section .bottom .articles .articles1 .article-card img{
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+}
+.section .bottom .articles .articles1 .article-card h4{
+    font-size: 22px;
+    font-weight:10px;
+    color: black;
+}
+.section .bottom .articles .articles1 .article-card p{
+    overflow:hidden;
+    font-size: 16px;
+}
+
+.section .bottom .articles .articles1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.section .bottom .articles .articles1 .article-card{
+    margin:20px 0px;
+}
+
+.last-section .btn{
+    position: absolute;
+    align-items: center;
+    margin-bottom: 50px auto;  
+}
+.section .btn button{ 
+    position: relative;
+    left: 50%;
+    background-color: #000000;
+    color: white;
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.last-section{
+    background-image: url(./image/./ready\ to\ find\ your\ dream\ home\ Let\ us\ help.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    border-radius: 24px;
+    background:linear-gradient rgba(0, 0, 0, 1, 20);
+    /* margin-left: -50px; */
+    margin-bottom: 50px;
+    
+}
+.last-section{
+    position: relative;
+}
+.last-section .text{
+    width: 790px;
+    height: 260px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%);
+    align-items: center;
+}
+.last-section .text h2{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 500;
+    color: white;
+}
+.last-section .text p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400px;
+    color: white;
+    line-height: 30px;
+}
+
+.last-section .btn{
+    position: absolute;
+    bottom: 80px;
+    left: 40%;
+    height: 50px;
+    width: 400px;
+    transform: translate(-40%);
+}
+.last-section .btn input{
+    /* color: white; */
+    position: relative;
+    width:440px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    padding-left: 10px;
+}
+.last-section .btn button{
+    position: absolute;
+    top: 8px;
+    right: -30px;
+    background-color:black;
+    color: white;
+    width:100px;
+    height: 35px;
+    border: none;
+    border-radius: 12px;
+}
+
+
+
+
+.footer{
+    padding: 50px 0px;
+    background-color: #18181B;
+    color: white;
+    height: 450px;
+    position: relative;
+}
+.footer .all-text{
+    display: flex;
+    align-items: center;
+}
+.footer .left h5{
+    font-size: 32px;
+    font-weight: 100px;
+}
+.footer .three{
+    width: 700px;
+    display: flex;
+    align-items: center;
+}
+.footer .three .one{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.footer .right{
+    width: 400px;
+    position: absolute;
+    right: 100px;
+    top: 40px;
+}
+.footer .right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .rightside{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .right h6{
+    padding: 10px 15px;
+}
+.footer .right p{
+    padding: 10px 15px;
+}
+
+.navigation p{
+    position: absolute;
+    top: 0px;
+}
+.footer .all-text{
+    padding-bottom: 70px;
+    border-bottom: 2px solid #70707B;
+}
+
+.footer .bottomnav{
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .bottomnav .a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+.footer .bottomnav .a i{
+    padding-left: 12px;
+    color: red;
+    font-size: 59px;
+>>>>>>> 125b7ae49f08c00ade0eadade71d41e056305b84
 }
