@@ -24,7 +24,7 @@ header .nav .logo h5 {
 }
 .nav ul{
     margin-top: 20px;
-    lis.nav ult-style: none;
+    list-style: none;
     display: flex;
     align-items: center;
 }
@@ -125,12 +125,6 @@ header .nav .logo h5 {
     width:300px;
     height: 600px;
     position: absolute;
-    left:  ;
-    top: ;
-}
-.section3 .photos{
-    /* position: relative; */
-    
 }
 .section3 .photos .details h4{
     padding: 10px;
@@ -182,7 +176,6 @@ header .nav .logo h5 {
 
 
 .section3 .allcard{
-    position:;
     right: 50px;
 }
 
@@ -332,17 +325,11 @@ header .nav .logo h5 {
     align-items: center;
     justify-content: center;
 }
-.section3 .line3 .card{
-    /* padding: 0px 20px; */
-}
 .section3 .line3 .card1{
     padding-right: 40px;
 }
 .section3 .line3 .card2{
     padding-right: 40px;
-}
-.section3 .line3 .card3{
-    /* padding-right: 40px; */
 }
 
 
@@ -392,9 +379,7 @@ header .nav .logo h5 {
     top: 1420px;
     left: 550px;
 }
-.section3 .btn{
-    /* margin-bottom: 0px; */
-}
+
 /* section 3 end */
 
 
